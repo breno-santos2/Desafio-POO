@@ -16,7 +16,7 @@ namespace DesafioPOO.Models
             Memoria = memoria;
             SistemaOperacional = sistemaOperacional;
         }
-        //teste
+
         public void Ligar()
         {
             Console.WriteLine("Ligando...");
@@ -30,3 +30,4 @@ namespace DesafioPOO.Models
         public abstract void InstalarAplicativo(string nomeApp);
     }
 }
+//
