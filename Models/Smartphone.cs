@@ -16,7 +16,7 @@ namespace DesafioPOO.Models
             Memoria = memoria;
             SistemaOperacional = sistemaOperacional;
         }
-
+        //
         public static void Ligar()
         {
             Console.WriteLine("Ligando...");
