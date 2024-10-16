@@ -17,12 +17,12 @@ namespace DesafioPOO.Models
             SistemaOperacional = sistemaOperacional;
         }
 
-        public void Ligar()
+        public static void Ligar()
         {
             Console.WriteLine("Ligando...");
         }
 
-        public void ReceberLigacao()
+        public static void ReceberLigacao()
         {
             Console.WriteLine("Recebendo ligação...");
         }
@@ -30,4 +30,3 @@ namespace DesafioPOO.Models
         public abstract void InstalarAplicativo(string nomeApp);
     }
 }
-//
